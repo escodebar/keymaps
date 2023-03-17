@@ -1,0 +1,7 @@
+// Git commit helpers
+SUBS(txt_git_commit,            "git commit ",          KC_G, KC_C)
+SUBS(txt_git_commit_p,          "git commit -p",        KC_G, KC_C, KC_P)
+SUBS(txt_git_fetch,             "git fetch",            KC_G, KC_F)
+SUBS(txt_git_switch,            "git switch ",          KC_G, KC_S)
+SUBS(txt_git_switch_c,          "git switch -c ",       KC_G, KC_S, KC_C)
+SUBS(txt_git_switch_dettached,  "git switch --detach ", KC_G, KC_S, KC_D)
