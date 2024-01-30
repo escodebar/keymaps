@@ -14,7 +14,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_SCLN, KC_Q, KC_J, KC_K, KC_X, /*      */ KC_B, KC_M, KC_W, KC_V, KC_Z,
 
         MT(MOD_LALT, KC_TAB), LT(LEFT, KC_ESC), MT(MOD_LCTL, KC_ENT),
-        MT(MOD_RSFT, KC_BSPC), LT(RIGHT, KC_SPC), MT(MOD_RALT, KC_DEL)),
+        MT(MOD_RSFT, KC_BSPC), LT(RIGHT, KC_SPC), MT(MOD_RGUI, KC_DEL)),
 
     [LEFT] = LAYOUT_split_3x5_3(
         KC_1, KC_2, KC_3, KC_4, KC_5, /*       */ KC_6, KC_7, KC_8, KC_9, KC_0,
